@@ -3,7 +3,7 @@ class Song
 
   def self.create
     Song.new
-    song
+    @song
   end
 
 
