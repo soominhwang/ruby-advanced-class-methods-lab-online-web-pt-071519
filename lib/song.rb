@@ -3,7 +3,8 @@ class Song
   @@all = []
 
   def self.create
-    song_object = Song.new
+    Song_object = Song.new
+    Song_object.save
   end
 
   def save
