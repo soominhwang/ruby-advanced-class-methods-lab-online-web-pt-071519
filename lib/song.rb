@@ -27,16 +27,6 @@ class Song
   end
 
   def self.find_by_name(name)
-    # @@all.include ? name
-    # @@all ==> collection / array of Song
-    # Song ==> class that contains name:String
-    # name ==> name of Song  / :String
-
-    #============================#
-    # Find by name
-    # Given a name (String),
-    # check if name:string is in @@all (array of Songs which contain name:String),
-    #
     @@all.each do |song|
       if song.name = name
         return song
