@@ -50,8 +50,10 @@ class Song
 
   def save
     puts "save"
-    puts self
-    puts self.class.all
+
     self.class.all << self
+    puts self
+    puts self.name
+    puts self.class.all
   end
 end
