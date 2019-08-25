@@ -6,5 +6,7 @@ class Song
     song
   end
 
-
+  def save
+    
+  end
 end
