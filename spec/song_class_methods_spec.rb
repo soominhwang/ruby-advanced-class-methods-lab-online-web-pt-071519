@@ -33,11 +33,7 @@ describe "Song Class Methods" do
       song_2 = Song.create_by_name("Hello")
       song_3 = Song.create_by_name("Hotline Bling")
 
-      puts "hello, world!"
-      puts song_2
-      puts Song.find_by_name("Hello")
-
-      expect(Song.find_by_name("Hello")).to eq(song_2)
+      expect(Song.find_by_name("Hello").name).to eq(song_2)
     end
 
     it 'returns falsey when a song name is not present in @@all' do
