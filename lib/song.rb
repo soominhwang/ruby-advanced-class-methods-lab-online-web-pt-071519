@@ -39,6 +39,7 @@ class Song
     #
     @@all.each do |song|
       puts song
+      puts song.name
       # if song.name = name
       #   return song
       # end
