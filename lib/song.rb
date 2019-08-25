@@ -37,10 +37,10 @@ class Song
     # Given a name (String),
     # check if name:string is in @@all (array of Songs which contain name:String),
     #
-    @@all.each do |song_object|
-      song_object.name
-      if song_object.name = name
-        song_object
+    @@all.each do |song|
+      song.name
+      if song.name = name
+        song
       else
         false
       end
