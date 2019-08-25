@@ -1,5 +1,5 @@
 class Song
-  def initialize
+  def self.create
     @song
   end
 
