@@ -38,11 +38,9 @@ class Song
     # check if name:string is in @@all (array of Songs which contain name:String),
     #
     @@all.each do |song|
-      puts song
-      puts song.name
-      # if song.name = name
-      #   return song
-      # end
+      if song.name = name
+        return song
+      end
     end
 
     # if yes, return Song object,
