@@ -31,11 +31,11 @@ describe "Song Class Methods" do
     it 'can find a song present in @@all by name' do
       song_1 = Song.create_by_name("Blank Space")
       song_2 = Song.create_by_name("Hello")
+      song_3 = Song.create_by_name("Hotline Bling")
+
       puts "hello, world!"
       puts song_2
-      puts Song.all
       puts Song.find_by_name("Hello")
-      song_3 = Song.create_by_name("Hotline Bling")
 
       expect(Song.find_by_name("Hello")).to eq(song_2)
     end
