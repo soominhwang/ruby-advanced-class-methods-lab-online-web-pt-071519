@@ -23,6 +23,7 @@ class Song
     song_object = Song.new
     song_object.name = name
     song_object.save
+    song_object
   end
 
   def save
