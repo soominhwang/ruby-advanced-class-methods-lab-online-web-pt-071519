@@ -1,6 +1,6 @@
 class Song
   attr_accessor :song
-  @all = []
+  @@all = []
 
   def self.create
     song = Song.new
