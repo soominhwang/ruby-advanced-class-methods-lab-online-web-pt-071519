@@ -46,7 +46,6 @@ class Song
       else
         self.create_by_name
       end
-    return nil
   end
 
 end
