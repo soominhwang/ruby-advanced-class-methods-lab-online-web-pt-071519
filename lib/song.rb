@@ -39,7 +39,7 @@ class Song
     #
     @@all.each do |song|
       if song.name = name
-        song
+        return song
       end
     end
     return nil
