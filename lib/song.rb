@@ -1,6 +1,6 @@
 class Song
   def self.create
-    @song
+    initialize(song)
   end
 
 end
