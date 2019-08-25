@@ -1,5 +1,6 @@
 class Song
   attr_accessor :song
+  @all = []
 
   def self.create
     Song.new
@@ -7,6 +8,6 @@ class Song
   end
 
   def save
-    
+
   end
 end
