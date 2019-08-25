@@ -41,8 +41,6 @@ class Song
       song.name
       if song.name = name
         song
-      else
-        false
       end
     end
     # if yes, return Song object,
