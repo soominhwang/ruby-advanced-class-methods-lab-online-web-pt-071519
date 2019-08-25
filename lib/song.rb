@@ -9,6 +9,7 @@ class Song
   def self.create
     song_object = Song.new
     song_object.save
+    song_object
   end
 
   def save
