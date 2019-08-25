@@ -49,11 +49,6 @@ class Song
   end
 
   def save
-    puts "save"
-
     self.class.all << self
-    puts self
-    puts self.name
-    puts self.class.all
   end
 end
