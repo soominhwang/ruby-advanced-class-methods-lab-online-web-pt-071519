@@ -34,11 +34,11 @@ class Song
 
     #============================#
     # Find by name
-    # Given a name (String), 
+    # Given a name (String),
     # check if name:string is in @@all (array of Songs which contain name:String),
-    #  
+    #
 
-    # if yes, return Song object, 
+    # if yes, return Song object,
     # else, return falsey
   end
 
