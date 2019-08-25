@@ -12,7 +12,6 @@ class Song
     song_object
   end
 
-
   def self.new_by_name(name)
     song_object = Song.new
     song_object.name = name
@@ -35,10 +34,6 @@ class Song
     return nil
   end
 
-  def save
-    self.class.all << self
-  end
-
   def self.find_or_create_by_name(name)
     @@all.each do |song|
       if song.name = name
@@ -48,4 +43,7 @@ class Song
       end
     end
 
+    def save
+      self.class.all << self
+    end
 end
