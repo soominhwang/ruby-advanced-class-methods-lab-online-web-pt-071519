@@ -42,7 +42,7 @@ class Song
         return song
       end
     end
-
+    return nil
     # if yes, return Song object,
     # else, return falsey
 
