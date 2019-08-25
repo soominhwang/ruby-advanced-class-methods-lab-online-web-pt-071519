@@ -23,6 +23,7 @@ class Song
   end
 
   def create_by_name
-    
+    song_object = Song.new
+    song_object.name.save
   end
 end
