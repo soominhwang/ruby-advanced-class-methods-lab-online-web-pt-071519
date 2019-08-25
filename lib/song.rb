@@ -18,5 +18,6 @@ class Song
 
   def self.new_by_name
     song_object = Song.new
+    song_object.name
   end
 end
